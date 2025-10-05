@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="[http://schemas.android.com/apk/res/android](http://schemas.android.com/apk/res/android)"
+    android:title="@string/plus_key_title">
+
+    <ListPreference
+        android:key="plus_key_action"
+        android:title="@string/plus_key_action_title"
+        android:dialogTitle="@string/plus_key_action_title"
+        android:entries="@array/plus_key_action_entries"
+        android:entryValues="@array/plus_key_action_values"
+        android:defaultValue="0" />
+
+</PreferenceScreen>

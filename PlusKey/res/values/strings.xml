@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Plus Key Handler</string>
+    <string name="plus_key_title">Plus key settings</string>
+    <string name="plus_key_action_title">Action</string>
+
+    <string-array name="plus_key_action_entries">
+        <item>Do nothing</item>
+        <item>Take screenshot</item>
+        <item>Cycle ringer modes</item>
+    </string-array>
+
+    <string-array name="plus_key_action_values" translatable="false">
+        <item>0</item> <!-- ACTION_NONE -->
+        <item>1</item> <!-- ACTION_SCREENSHOT -->
+        <item>2</item> <!-- ACTION_RINGER_MODES -->
+    </string-array>
+</resources>
